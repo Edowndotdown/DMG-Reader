@@ -98,9 +98,11 @@ echo     Z                                                Y
 echo     Z                                                Y   
 echo     Z                                                Y   
 echo     Z                                                Y   
-echo     Z                                                Y   
+echo     Z                                       V 0.7.24 Y   
 echo     ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ   
+set file=NOT
 set /p "file="
+if "%file%" equ "NOT" echo No file found. && timeout 5 && goto init
 set "location=%cd%/temp"
 mkdir "%location%"
 rmdir /s /q temp
