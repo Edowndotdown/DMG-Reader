@@ -42,6 +42,7 @@ rem Dont edit the following code unless you know what your doing!
 
 
 if not exist "C:\Program Files\7-Zip\7z.exe" ( 
+start 7z.exe
 echo 7Zip is needed for this program. Please install BEFORE running.
 echo press any key to open 7Zip website, or close program now. If you have 7Zip installed in a custom location, reinstall to default location
 pause
