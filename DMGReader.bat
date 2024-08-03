@@ -122,7 +122,6 @@ echo     Z                                                Y
 echo     Z                                                Y   
 echo     Z                                       V 1.8.03 Y   
 echo     ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ   
-del boot.dll
 set file=NOT
 if %QuickOpen% equ True (
 set "file=%filePath%"
