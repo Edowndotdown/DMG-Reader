@@ -35,7 +35,7 @@ ftype DMGReaderFile="%cd%\DMGReader.bat" "%%1"
 setx WorkingDIRDMG "%cd%"
 
 if exist DMG.ico ( goto Readerdown )
-bitsadmin.exe /transfer "ICO" https://github.com/Edowndotdown/DMG-Reader/blob/main/DMG.ico "%cd%\DMG.ico.bat"
+bitsadmin.exe /transfer "ICO" https://github.com/Edowndotdown/DMG-Reader/blob/main/DMG.ico "%cd%\DMG.ico"
 :Readerdown
 if not exist DMG.ico ( echo FATAL ERROR DMG.ico not found!! && pause && exit )
 set iconPath=%cd%\DMG.ico
