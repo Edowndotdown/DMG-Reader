@@ -1,5 +1,20 @@
 @echo off
 
+set filePath=%1
+cd "%WorkingDIRDMG%"
+if "%filePath%"=="" (
+    set QuickOpen=False
+) else (
+    set QuickOpen=True
+)
+if not exist init.dll ( echo WARNING Setup.bat has not run yet! && pause && exit)
+
+
+rem Options section
+rem ====================================
+rem Edit any of the following vars freely!
+
+
 
 
 rem Ensure Drive Mounted Properly to the correct Drive Letter
@@ -16,6 +31,12 @@ set DefaultDriveLetter=Y
 
 rem After Mounting, Close DMG Reader. (Only Runs if DoAutoUnmount is set to 1) 
 set NeverShowUnmountDialogeAfterMount=1
+
+
+rem Options section END
+rem ==================================
+rem Dont edit the following code unless you know what your doing!
+
 
 
 
@@ -98,15 +119,21 @@ echo     Z                                                Y
 echo     Z                                                Y   
 echo     Z                                                Y   
 echo     Z                                                Y   
-echo     Z                                       V 0.7.24 Y   
+echo     Z                                       V 1.8.03 Y   
 echo     ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ   
+del boot.dll
 set file=NOT
+if %QuickOpen% equ True (
+set "file=%filePath%"
+) else (
 set /p "file="
+ )
 if "%file%" equ "NOT" echo No file found. && timeout 5 && goto init
 set "location=%cd%/temp"
 mkdir "%location%"
 rmdir /s /q temp
 mkdir "%location%"
+echo %filePath%
 xcopy "%file%" "%location%"
 cd "%location%"
 rename *.dmg cur.dmg
