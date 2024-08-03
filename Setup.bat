@@ -34,9 +34,9 @@ assoc .dmg=DMGReaderFile
 ftype DMGReaderFile="%cd%\DMGReader.bat" "%%1"
 setx WorkingDIRDMG "%cd%"
 
-if exist DMG.ico ( goto Readerdown )
-bitsadmin.exe /transfer "ICO" https://github.com/Edowndotdown/DMG-Reader/blob/main/DMG.ico "%cd%\DMG.ico"
-:Readerdown
+
+bitsadmin.exe /transfer "ICO" https://github.com/Edowndotdown/DMG-Reader/raw/main/DMG.ico "%cd%\DMG.ico"
+
 if not exist DMG.ico ( echo FATAL ERROR DMG.ico not found!! && pause && exit )
 set iconPath=%cd%\DMG.ico
 
@@ -49,7 +49,7 @@ bitsadmin.exe /transfer "7z" https://www.7-zip.org/a/7z2407-x64.exe "%cd%\7z.exe
 start 7z.exe
 :s7z
 if exist DMGReader.bat ( goto endsetup )
-bitsadmin.exe /transfer "DMG" https://github.com/Edowndotdown/DMG-Reader/blob/main/DMGReader.bat "%cd%\DMGReader.bat"
+bitsadmin.exe /transfer "DMG" https://github.com/Edowndotdown/DMG-Reader/raw/main/DMGReader.bat "%cd%\DMGReader.bat"
 
 
 
