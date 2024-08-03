@@ -22,9 +22,18 @@
 
  
 # Installation
+Releases
  Download the DMG Reader.bat file.
  Execute the batch file.
 
+Source Code
+ Download the raw file for Setup.bat and run it
+ 
+ OR
+
+ Download the zip file for the repo
+ Extract it
+ Run Setup.bat
 
 # Unmounting
  To unmount, reopen the batch file and close it after the drag-and-drop screen.
