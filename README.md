@@ -18,7 +18,7 @@
 
 
 # Features
- Read-Only Viewing: DMG Reader provides read-only access to DMG files. You can explore their contents without modifying them.
+ Like MacOS, DMG Reader allows Read-Only Viewing: DMG Reader provides read-only access to DMG files. You can explore their contents without modifying them.
 
 # Usage
  Simply Open DMGs just like MacOS
