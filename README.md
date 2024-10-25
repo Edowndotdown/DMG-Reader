@@ -4,11 +4,12 @@
 
 # Use Cases
  Here are some scenarios where DMG Reader performs outstandingly:
-  # Cross-Platform Access: If you work on both Windows and MacOS systems, DMG Reader lets you view DMGs on Windows   without needing a Mac.
-  
+  # Cross-Platform Access: If you work on both Windows and MacOS systems, DMG Reader lets you view DMGs on Windows without a Mac.
+ 
   # Software Testing: Developers can use DMG Reader to inspect DMG files containing software installers or updates.
-  
+ 
   # Archival Purposes: If you have old DMG files from Mac applications, DMG Reader helps you explore their contents for archival purposes
+
 
 
 # Customization
