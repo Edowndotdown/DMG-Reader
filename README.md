@@ -2,6 +2,9 @@
  Welcome to DMG Reader! DMG Reader is a simple program to allow viewing of DMGs previously only available on MacOS.
 ### Release Version now available!
 
+# Get ready for some updates!
+ Coming this Spring, updates to this program will drop!
+ 
 # Use Cases
  Here are some scenarios where DMG Reader performs outstandingly:
   # Cross-Platform Access: If you work on both Windows and MacOS systems, DMG Reader lets you view DMGs on Windows without a Mac.
@@ -50,9 +53,6 @@ https://github.com/user-attachments/assets/3abe9e65-6341-40d3-86e8-acf9c3b422a9
 
 # Unmounting
  DMG-Reader automatically manages Mounts and Unmounts, however if you find yourself needing to umnount, reopen the batch file and close it after the drag-and-drop screen. If you want to change the default drive letter reference the customization section.
-
-# This program is part of the Windows Script Installer Project
- Get ready! DMG Reader will begin using WSI version 1.0 in December!
 
 # Questions and Feedback
  Feel free to ask any questions, report bugs, or share suggestions. Your input is appreciated.
