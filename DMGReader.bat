@@ -1,6 +1,11 @@
 @echo off
+set hasmin=%2
 
-set filePath=%1
+
+set filePath="%1"
+
+
+
 cd "%WorkingDIRDMG%"
 if "%filePath%"=="" (
     set QuickOpen=False
@@ -8,6 +13,17 @@ if "%filePath%"=="" (
     set QuickOpen=True
 )
 if not exist init.dll ( echo WARNING Setup.bat has not run yet! && pause && exit)
+
+if %QuickOpen%==True (
+    echo in loop 1
+    if "%hasmin%"=="" (
+        echo in loop 2
+        start "" /min cmd /c DMGReader.bat "%filePath%" "true"
+        exit
+    )
+)
+
+
 
 
 rem Options section
@@ -120,7 +136,7 @@ echo     Z                                                Y
 echo     Z                                                Y   
 echo     Z                                                Y   
 echo     Z                                                Y   
-echo     Z                                       V 1.8.03 Y   
+echo     Z                                        V 2.1.1 Y   
 echo     ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ   
 set file=NOT
 if %QuickOpen% equ True (
@@ -132,6 +148,7 @@ if "%file%" equ "NOT" echo No file found. && timeout 5 && goto init
 set "location=%cd%/temp"
 mkdir "%location%"
 rmdir /s /q temp
+if "%3"=="true" ( exit )
 mkdir "%location%"
 echo %filePath%
 xcopy "%file%" "%location%"
