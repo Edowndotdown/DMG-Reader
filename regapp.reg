@@ -4,5 +4,5 @@ Windows Registry Editor Version 5.00
 "Publisher"="Edowndotdown" 
 "HelpLink"="https://github.com/Edowndotdown/DMG-Reader" 
 "InstallLocation"="C:\\DMGReader\\DMG-Reader\\DMG-Reader" 
-"UninstallString"="cmd.exe /c "C:\\DMGReader\\DMG-Reader\\Setup.bat"" 
+"UninstallString"="cmd.exe /c C:\\DMGReader\\DMG-Reader\\Setup.bat" 
 "DisplayIcon"="C:\\DMGReader\\DMG-Reader\\dmg.ico" 
