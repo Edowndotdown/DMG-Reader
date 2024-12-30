@@ -7,8 +7,9 @@ set filePath="%1"
 
 
 cd "%WorkingDIRDMG%"
-if "%filePath%"=="" (
+if "%filePath%"=="""" (
     set QuickOpen=False
+    goto strtprgmopen
 ) else (
     set QuickOpen=True
 )
@@ -22,7 +23,7 @@ if %QuickOpen%==True (
         exit
     )
 )
-
+:strtprgmopen
 
 
 

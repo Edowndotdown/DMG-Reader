@@ -31,7 +31,9 @@ if exist init.dll (
 goto PassUAC
  )
 :strtsetup
-cd "C:\Program Files\"
+cd "C:\"
+mkdir DMGReader
+cd DMGReader
 mkdir DMG-Reader
 cd DMG-Reader
 assoc .dmg=DMGReaderFile
