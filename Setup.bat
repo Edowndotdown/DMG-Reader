@@ -1,4 +1,3 @@
-
 :: BatchGotAdmin
 :-------------------------------------
 REM  --> Check for permissions
@@ -27,11 +26,14 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 :--------------------------------------    
-
+set "activdir=%cd%"
 if exist init.dll ( 
 goto PassUAC
  )
 :strtsetup
+cd "C:\Program Files\"
+mkdir DMG-Reader
+cd DMG-Reader
 assoc .dmg=DMGReaderFile
 ftype DMGReaderFile="%cd%\DMGReader.bat" "%%1"
 setx WorkingDIRDMG "%cd%"
@@ -55,25 +57,18 @@ bitsadmin.exe /transfer "DMG" https://github.com/Edowndotdown/DMG-Reader/raw/mai
 
 :umountgrb
 if exist unmount.bat ( goto regsetup )
-bitsadmin.exe /transfer "Unmount" https://github.com/Edowndotdown/DMG-Reader/raw/main/unmount.bat "%cd%\DMGReader.bat"
+bitsadmin.exe /transfer "Unmount" https://github.com/Edowndotdown/DMG-Reader/raw/main/unmount.bat "%cd%\unmount.bat"
 
 
 :regsetup
-echo Windows Registry Editor Version 5.00 >regapp.reg
 
-echo [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DMG Reader] >>regapp.reg
-echo "DisplayName"="DMG Reader for Windows" >>regapp.reg
-echo "Publisher"="Edowndotdown" >>regapp.reg
-echo "HelpLink"="https://github.com/Edowndotdown/DMG-Reader" >>regapp.reg
-echo "InstallLocation"="%cd%\DMG-Reader" >>regapp.reg
-echo "UninstallString"="%cd%\Setup.bat" >>regapp.reg
-echo "DisplayIcon"="%cd%\dmg.ico" >>regapp.reg
-
+bitsadmin.exe /transfer "RegApp" https://github.com/Edowndotdown/DMG-Reader/raw/main/regapp.reg "%cd%\regapp.reg"
 
 start regapp.reg
 
 
 :endsetup
+xcopy "%activdir%\Setup.bat" "%cd%"
 echo true >init.dll
 @echo off
 cls
@@ -83,6 +78,11 @@ if %errorlevel% equ 1 taskkill /im explorer.exe /f && explorer
 exit
 :PassUAC
 @echo off
+if "%WorkingDIRDMG%"=="" ( 
+	echo accepted
+ ) else (
+	cd "%WorkingDIRDMG%"
+ )
 cls
 echo DMG Reader - Uninstall / Repair menu
 echo ====================================

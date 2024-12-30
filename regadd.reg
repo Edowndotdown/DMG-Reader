@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DMG Reader] 
+"DisplayName"="DMG Reader for Windows" 
+"Publisher"="Edowndotdown" 
+"HelpLink"="https://github.com/Edowndotdown/DMG-Reader" 
+"InstallLocation"="C:\\Program Files\\DMG-Reader\\DMG-Reader" 
+"UninstallString"="C:\\Program Files\\DMG-Reader\\Setup.bat" 
+"DisplayIcon"="C:\\Program Files\\DMG-Reader\\dmg.ico" 
