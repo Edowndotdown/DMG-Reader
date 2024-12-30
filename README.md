@@ -2,8 +2,8 @@
  Welcome to DMG Reader! DMG Reader is a simple program to allow viewing of DMGs previously only available on MacOS.
 ### Release Version now available!
 
-# Get ready for some updates!
- Coming this Spring, updates to this program will drop!
+# Version 2 now available!
+ We are excited to announce the new Version 2 for DMG Reader! To see more, check out the Releases tab.
  
 # Use Cases
  Here are some scenarios where DMG Reader performs outstandingly:
