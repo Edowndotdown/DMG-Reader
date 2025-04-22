@@ -8,6 +8,10 @@ Love **DMG Reader**? Help support the project and increase its visibility by lea
 
 Welcome to **DMG Reader**, the simple solution for viewing DMG files—previously exclusive to macOS—on Windows!  
 
+DMG is perfect for reading DMG files on Windows due to the near-perfect integration with Windows. DMG reader provides
+a near native experience. This makes DMG files as easy to mount as ISO files! Just one click and it mounts. 
+
+
 ## **🎉 Version 2 Now Available!**  
 We're excited to announce **Version 2** of DMG Reader! For the latest updates, check out the **Releases** tab.  
 
