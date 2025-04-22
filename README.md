@@ -1,7 +1,3 @@
-Of course! Here's the fully polished version with all the images and videos properly included and formatted:  
-
----
-
 # **⭐ Like the Project?**  
 
 Love **DMG Reader**? Help support the project and increase its visibility by leaving a **star**!  
@@ -106,7 +102,3 @@ This script is protected by copyright. **Unauthorized reproduction, distribution
 🔗 **[View Full Image](https://github.com/user-attachments/assets/ea2ae750-d9e6-4a64-8755-dc9322d70816)**  
 
 📽️ **[Copyright Notice Video](https://github.com/user-attachments/assets/355971387-31edeba8-c2d3-4b09-be2f-56cd0d1fa3be)**  
-
----
-
-Everything is now fully polished with images and videos correctly linked! Let me know if you need further refinements. 🚀
