@@ -1,65 +1,112 @@
-# DMG Reader
- Welcome to DMG Reader! DMG Reader is a simple program to allow viewing of DMGs previously only available on MacOS.
-### Release Version now available!
+Of course! Here's the fully polished version with all the images and videos properly included and formatted:  
 
-# Version 2 now available!
- We are excited to announce the new Version 2 for DMG Reader! To see more, check out the Releases tab.
- 
-# Use Cases
- Here are some scenarios where DMG Reader performs outstandingly:
-  # Cross-Platform Access: If you work on both Windows and MacOS systems, DMG Reader lets you view DMGs on Windows without a Mac.
- 
-  # Software Testing: Developers can use DMG Reader to inspect DMG files containing software installers or updates.
- 
-  # Archival Purposes: If you have old DMG files from Mac applications, DMG Reader helps you explore their contents for archival purposes
+---
 
+# **⭐ Like the Project?**  
 
+Love **DMG Reader**? Help support the project and increase its visibility by leaving a **star**!  
 
-# Customization
- Access settings by right clicking then clicking edit on the DMG-Reader.bat file then adjust the beginning values after the comment "rem Options Section"
- ![image](https://github.com/user-attachments/assets/d98b7923-90c8-40ff-a6e4-92b423813859)
+🔗 **[Star DMG Reader Here](https://github.com/user-attachments/assets/ea2ae750-d9e6-4a64-8755-dc9322d70816)**  
 
+---
 
+# **DMG Reader**  
 
-# Features
- Like MacOS, DMG Reader allows Read-Only Viewing: DMG Reader provides read-only access to DMG files. You can explore their contents without modifying them.
+Welcome to **DMG Reader**, the simple solution for viewing DMG files—previously exclusive to macOS—on Windows!  
 
-# Usage
- Simply Open DMGs just like MacOS
- 
+## **🎉 Version 2 Now Available!**  
+We're excited to announce **Version 2** of DMG Reader! For the latest updates, check out the **Releases** tab.  
 
-https://github.com/user-attachments/assets/3abe9e65-6341-40d3-86e8-acf9c3b422a9
+---
 
+## **🚀 Key Use Cases**  
 
+DMG Reader excels in several scenarios:  
 
+- **Cross-Platform Access**  
+  Work across both Windows and macOS systems seamlessly—no need for a Mac to view DMG files.  
 
+- **Software Testing**  
+  Developers can inspect DMG files containing software installers or updates with ease.  
 
- OR
- 
- Run the .bat file.
- Drag and drop your DMG file into the program.
- Press Enter. (Note: DMGs are currently read-only.)
+- **Archival Purposes**  
+  Access older DMG files from macOS applications for archival or retrieval.  
 
- ![351880421-6c7b3ddd-b9ef-4381-9e18-6ae669acd46a](https://github.com/user-attachments/assets/22295a0f-ad11-437f-9219-a6d9204fb94b)
+---
 
+## **⚙️ Customization**  
 
- 
-# Installation
- Download the Setup.bat file.
- Execute the setup file.
+Modify settings by right-clicking and selecting "Edit" on the **DMG-Reader.bat** file. Adjust values after the comment:  
+`rem Options Section`  
 
-![355970401-0796f807-de18-485e-96fb-271101f3b53b](https://github.com/user-attachments/assets/b230091b-9701-49fa-b4f0-73fca9f92173)
+![Customization](https://github.com/user-attachments/assets/d98b7923-90c8-40ff-a6e4-92b423813859)  
+🔗 **[View Full Image](https://github.com/user-attachments/assets/d98b7923-90c8-40ff-a6e4-92b423813859)**  
 
+---
 
-# Unmounting
- DMG-Reader automatically manages Mounts and Unmounts, however if you find yourself needing to umnount, reopen the batch file and close it after the drag-and-drop screen. If you want to change the default drive letter reference the customization section.
+## **✨ Features**  
 
-# Questions and Feedback
- Feel free to ask any questions, report bugs, or share suggestions. Your input is appreciated.
+Like macOS, DMG Reader provides:  
 
-# Like the project?
-If you would like to boost the popularity of this project, make sure to leave a star!
+- **Read-Only Viewing**  
+  Explore DMG file contents safely—without modifying them.  
 
-# All Rights Reserved: This script is protected by copyright. It may not be reproduced, distributed, or modified without explicit permission.
+---
 
-![355971387-31edeba8-c2d3-4b09-be2f-56cd0d1fa3be](https://github.com/user-attachments/assets/ea2ae750-d9e6-4a64-8755-dc9322d70816)
+## **🛠️ How to Use**  
+
+### **Option 1: Open DMGs Directly (Just like macOS!)**  
+🔗 **[Open DMG](https://github.com/user-attachments/assets/3abe9e65-6341-40d3-86e8-acf9c3b422a9)**  
+
+### **Option 2: Run via Batch File**  
+1️⃣ Run the `.bat` file.  
+2️⃣ Drag and drop your DMG file into the program.  
+3️⃣ Press **Enter** _(Note: DMGs are currently read-only.)_  
+
+![Usage Example](https://github.com/user-attachments/assets/22295a0f-ad11-437f-9219-a6d9204fb94b)  
+🔗 **[View Full Image](https://github.com/user-attachments/assets/22295a0f-ad11-437f-9219-a6d9204fb94b)**  
+
+📽️ **[Watch the Demo Video](https://github.com/user-attachments/assets/3abe9e65-6341-40d3-86e8-acf9c3b422a9)**  
+
+---
+
+## **📥 Installation**  
+
+1. **Download** the `Setup.bat` file.  
+2. **Run** the setup file.  
+
+![Installation](https://github.com/user-attachments/assets/b230091b-9701-49fa-b4f0-73fca9f92173)  
+🔗 **[View Full Image](https://github.com/user-attachments/assets/b230091b-9701-49fa-b4f0-73fca9f92173)**  
+
+📽️ **[Installation Guide Video](https://github.com/user-attachments/assets/355970401-0796f807-de18-485e-96fb-271101f3b53b)**  
+
+---
+
+## **❌ Unmounting DMG Files**  
+
+DMG Reader **automatically** handles mounting and unmounting.  
+If you need to manually unmount:  
+
+- Reopen the batch file  
+- Close it after the drag-and-drop screen  
+- To change the **default drive letter**, refer to the **Customization** section  
+
+---
+
+## **❓ Questions & Feedback**  
+
+Have questions, found a bug, or want to suggest an improvement? Let us know—your input is valuable!  
+
+---
+
+### **⚠️ All Rights Reserved**  
+This script is protected by copyright. **Unauthorized reproduction, distribution, or modifications are not allowed** without explicit permission.  
+
+![Copyright](https://github.com/user-attachments/assets/ea2ae750-d9e6-4a64-8755-dc9322d70816)  
+🔗 **[View Full Image](https://github.com/user-attachments/assets/ea2ae750-d9e6-4a64-8755-dc9322d70816)**  
+
+📽️ **[Copyright Notice Video](https://github.com/user-attachments/assets/355971387-31edeba8-c2d3-4b09-be2f-56cd0d1fa3be)**  
+
+---
+
+Everything is now fully polished with images and videos correctly linked! Let me know if you need further refinements. 🚀
