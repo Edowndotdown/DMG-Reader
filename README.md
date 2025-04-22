@@ -2,8 +2,6 @@
 
 Love **DMG Reader**? Help support the project and increase its visibility by leaving a **star**!  
 
-🔗 **[Star DMG Reader Here](https://github.com/user-attachments/assets/ea2ae750-d9e6-4a64-8755-dc9322d70816)**  
-
 ---
 
 # **DMG Reader**  
@@ -36,7 +34,7 @@ Modify settings by right-clicking and selecting "Edit" on the **DMG-Reader.bat**
 `rem Options Section`  
 
 ![Customization](https://github.com/user-attachments/assets/d98b7923-90c8-40ff-a6e4-92b423813859)  
-🔗 **[View Full Image](https://github.com/user-attachments/assets/d98b7923-90c8-40ff-a6e4-92b423813859)**  
+ 
 
 ---
 
@@ -52,7 +50,7 @@ Like macOS, DMG Reader provides:
 ## **🛠️ How to Use**  
 
 ### **Option 1: Open DMGs Directly (Just like macOS!)**  
-🔗 **[Open DMG](https://github.com/user-attachments/assets/3abe9e65-6341-40d3-86e8-acf9c3b422a9)**  
+[![Open DMG](https://github.com/user-attachments/assets/3abe9e65-6341-40d3-86e8-acf9c3b422a9) ](https://private-user-images.githubusercontent.com/115327261/399342135-1acef9d4-0032-45c8-ba4d-bfde74d5d535.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUzMzg3NDAsIm5iZiI6MTc0NTMzODQ0MCwicGF0aCI6Ii8xMTUzMjcyNjEvMzk5MzQyMTM1LTFhY2VmOWQ0LTAwMzItNDVjOC1iYTRkLWJmZGU3NGQ1ZDUzNS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQyMlQxNjE0MDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iZGQ5YWM1ZTRiYjRlNThkMGY4NmYzYzAyOTcwY2FiMWQxYjRhMmFlODUxOTI2MWVhYzA5ZjI0Y2Q3YTlkZTAzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.CBQD-0fDa8qFdXpf1Q_HOb7Rqckj9KDWzWRG5_DREVI)
 
 ### **Option 2: Run via Batch File**  
 1️⃣ Run the `.bat` file.  
@@ -60,9 +58,6 @@ Like macOS, DMG Reader provides:
 3️⃣ Press **Enter** _(Note: DMGs are currently read-only.)_  
 
 ![Usage Example](https://github.com/user-attachments/assets/22295a0f-ad11-437f-9219-a6d9204fb94b)  
-🔗 **[View Full Image](https://github.com/user-attachments/assets/22295a0f-ad11-437f-9219-a6d9204fb94b)**  
-
-📽️ **[Watch the Demo Video](https://github.com/user-attachments/assets/3abe9e65-6341-40d3-86e8-acf9c3b422a9)**  
 
 ---
 
@@ -72,9 +67,7 @@ Like macOS, DMG Reader provides:
 2. **Run** the setup file.  
 
 ![Installation](https://github.com/user-attachments/assets/b230091b-9701-49fa-b4f0-73fca9f92173)  
-🔗 **[View Full Image](https://github.com/user-attachments/assets/b230091b-9701-49fa-b4f0-73fca9f92173)**  
 
-📽️ **[Installation Guide Video](https://github.com/user-attachments/assets/355970401-0796f807-de18-485e-96fb-271101f3b53b)**  
 
 ---
 
@@ -99,6 +92,4 @@ Have questions, found a bug, or want to suggest an improvement? Let us know—yo
 This script is protected by copyright. **Unauthorized reproduction, distribution, or modifications are not allowed** without explicit permission.  
 
 ![Copyright](https://github.com/user-attachments/assets/ea2ae750-d9e6-4a64-8755-dc9322d70816)  
-🔗 **[View Full Image](https://github.com/user-attachments/assets/ea2ae750-d9e6-4a64-8755-dc9322d70816)**  
 
-📽️ **[Copyright Notice Video](https://github.com/user-attachments/assets/355971387-31edeba8-c2d3-4b09-be2f-56cd0d1fa3be)**  
