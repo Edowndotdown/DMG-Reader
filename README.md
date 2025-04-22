@@ -57,6 +57,8 @@ https://github.com/user-attachments/assets/3abe9e65-6341-40d3-86e8-acf9c3b422a9
 # Questions and Feedback
  Feel free to ask any questions, report bugs, or share suggestions. Your input is appreciated.
 
+# Like the project?
+If you would like to boost the popularity of this project, make sure to leave a star!
 
 # All Rights Reserved: This script is protected by copyright. It may not be reproduced, distributed, or modified without explicit permission.
 
