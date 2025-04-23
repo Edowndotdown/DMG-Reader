@@ -1,6 +1,6 @@
 # **⭐ Like the Project?**  
 
-Love **DMG Reader**? Help support the project and increase its visibility by leaving a **star**!  
+Love **DMG Reader**? Help support the project and increase its visibility by leaving a **star** or clicking the **watch** button!  
 
 ---
 
