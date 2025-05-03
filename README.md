@@ -1,8 +1,3 @@
-# **⭐ Like the Project?**  
-
-Love **DMG Reader**? Help support the project and increase its visibility by leaving a **star** or clicking the **watch** button!  
-
----
 
 # **DMG Reader**  
 
@@ -112,8 +107,12 @@ Users **must not**:
 ### **3. Device-Locked Usage**  
 This license applies **only** to the original device on which **DMG-Reader** was downloaded. **Any unauthorized transfer, duplication, modification, or hosting of the software constitutes a violation of this license.**  
 
-### **4. Termination & Enforcement**  
-Violation of any of these terms **automatically terminates the license**, requiring users to delete all copies. The software owner **reserves the right** to enforce compliance through legal measures, including issuing takedown requests or seeking damages for unauthorized use.  
+# **⭐ Like the Project?**  
+
+Love **DMG Reader**? Help support the project and increase its visibility by leaving a **star** or clicking the **watch** button!
+
+---
+ 
 
 
 ~~~
