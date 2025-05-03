@@ -106,7 +106,7 @@ Users **must not**:
 
 ### **3. Device-Locked Usage**  
 This license applies **only** to the original device on which **DMG-Reader** was downloaded. **Any unauthorized transfer, duplication, modification, or hosting of the software constitutes a violation of this license.**  
-
+~~~
 # **⭐ Like the Project?**  
 
 Love **DMG Reader**? Help support the project and increase its visibility by leaving a **star** or clicking the **watch** button!
@@ -115,7 +115,7 @@ Love **DMG Reader**? Help support the project and increase its visibility by lea
  
 
 
-~~~
+
 
 
 ![Copyright](https://github.com/user-attachments/assets/ea2ae750-d9e6-4a64-8755-dc9322d70816)  
