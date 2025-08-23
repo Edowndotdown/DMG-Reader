@@ -83,7 +83,7 @@ If you need to manually unmount:
 
 ## **❓ Questions & Feedback**  
 
-Have questions, found a bug, or want to suggest an improvement? Let us know—your input is valuable!  
+Have questions, found a bug, or want to suggest an improvement? Let us know, your input is valuable!  
 
 ---
 
