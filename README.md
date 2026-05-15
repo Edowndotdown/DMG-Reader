@@ -42,7 +42,10 @@ Modify settings by right-clicking and selecting "Edit" on the **DMG-Reader.bat**
 Like macOS, DMG Reader provides:  
 
 - **Read-Only Viewing**  
-  Explore DMG file contents safely—without modifying them.  
+  Explore DMG file contents safely—without modifying them.
+
+- **Automatic Mounting of DMG Files as drive letter**
+  Seamless double-click mounting, similar to ISOs provides a first-class DMG viewing experience that few programs provide.
 
 ---
 
