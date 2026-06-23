@@ -114,8 +114,7 @@ This license applies **only** to the original device on which **DMG-Reader** was
 
 Love **DMG Reader**? Help support the project and increase its visibility by leaving a **star** or clicking the **watch** button!
 
----
-~~~
+
 # **👨‍💻 Want to contribute?**  
 
 We are actively looking for contributors and or maintainers for **DMG Reader**. If you would like to improve the project by contributing stability fixes or new features, feel free to drop a **pull request**!
